@@ -27,9 +27,8 @@ effective leader  Which im doing right from my age of 14 leading my school baske
 
 ## Future Aspirations
 
-Robotics have been my passion ever since I was a kid Ive done few works using aurdino and raspberry pie in my school days and now I and currently doing projects along with my college mechanical and electrical and electronics seniors Being a undergrad of cse, im ensuring to strengthen my software knowledge that I  gai in this 4 years and wanted to do masters in robotics abroad most preferred in US 
+Robotics have been my passion ever since I was a kid Ive done few works using aurdino and raspberry pie in my school days and now I and currently doing projects along with my college mechanical and electrical and electronics seniors Being a undergrad of cse, im ensuring to strengthen my software knowledge that I  gain in this 4 years and wanted to do masters in robotics abroad most preferred in US 
 
-So im also preparing for ielts and gre exams in my weekends 
 Universities that I aspire  to get in  includes Princeton,Caltech,cmu,northeastern and a few that have interdisciplinary robotics courses .
 After gaining sufficient knowledge from master and industry , wanted to begin with a Startup that solves day to day problem combining, Compter Science with streams like
  AI , Reinforcement Learning Embeded Electronic System and Mechanics.
