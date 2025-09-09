@@ -21,9 +21,6 @@ I’m Sachinkumar Mahesh, im a smart – working engineering under grad speciali
 Im a active listener and a efficient orator, 
 effective leader  Which im doing right from my age of 14 leading my school basketball team and a active philathelist and a enthusiastic cuber
 
-## Technical Skills 
-
- python, Java, c , C++, HTML. CSS,Java Script,go,rust,Power BI,PostgreSQL,
 
 ## Future Aspirations
 
