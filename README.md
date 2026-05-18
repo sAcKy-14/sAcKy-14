@@ -1,12 +1,4 @@
-<!-- ████████████████████████████████████████████████████ -->
-<!--       BLACK & RED PORTFOLIO — GITHUB PROFILE README  -->
-<!-- ████████████████████████████████████████████████████ -->
 
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&pause=900&color=E11D48&center=true&vCenter=true&width=500&lines=5%2B+years+building+backend+systems;Distributed+architecture+%7C+API+design;Go+%7C+Python+%7C+Docker+%7C+K8s+%7C+AWS;Let%27s+build+something+dangerous.)](https://git.io/typing-svg)
-
-</div>
 
 ---
 
