@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=135&color=0:050505,45:190008,100:e11d48&section=header&text=Sachinkumar%20M&fontColor=ffffff&fontSize=42&fontAlignY=35&animation=fadeIn" width="100%" alt="Sachinkumar M header" />
+<img src=".github/assets/name-banner.svg" width="100%" alt="Sachinkumar M animated banner" />
 
 <img src=".github/assets/tag-marquee.svg" width="100%" alt="Team Media, BasketBall, Speed Cubing, Philathely, NSS, ACE Club, Photography, Videography, Video Editing" />
 
@@ -9,8 +9,10 @@
 
 <p>
   <img src="https://komarev.com/ghpvc/?username=sAcKy-14&style=for-the-badge&color=e11d48&label=profile+views" alt="Profile views" />
-  <img src="https://img.shields.io/badge/open_to_work-backend_%7C_infra_%7C_platform-e11d48?style=for-the-badge&logo=rocket&logoColor=white" alt="Open to work" />
-  <img src="https://img.shields.io/badge/remote_first-Coimbatore%2C_India-111111?style=for-the-badge&logo=googleearth&logoColor=e11d48" alt="Remote first from Coimbatore, India" />
+  <img src="https://img.shields.io/badge/B.Tech-CSE-e11d48?style=for-the-badge&logo=academia&logoColor=white" alt="B.Tech Computer Science and Engineering" />
+  <img src="https://img.shields.io/badge/Amrita_Vishwa_Vidyapeetham-111111?style=for-the-badge&logo=googleclassroom&logoColor=e11d48" alt="Amrita Vishwa Vidyapeetham" />
+  <img src="https://img.shields.io/badge/Coimbatore-India-111111?style=for-the-badge&logo=googlemaps&logoColor=e11d48" alt="Coimbatore, India" />
+  <img src="https://img.shields.io/badge/open_to_work-backend_%7C_infra_%7C_platform-e11d48?style=for-the-badge&logo=rocket&logoColor=white" alt="Open to work: backend, infra, platform" />
 </p>
 
 <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="100%" alt="Wide animated developer workspace banner" />

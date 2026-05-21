@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Sachinkumar M animated banner">
+  <defs>
+    <linearGradient id="backdrop" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#030303"/>
+      <stop offset="35%" stop-color="#120006"/>
+      <stop offset="70%" stop-color="#65001d"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+      <animate attributeName="x1" values="0;-.18;0" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;.82;1" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="hotSweep" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#e11d48" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#ff3b6b" stop-opacity=".55"/>
+      <stop offset="52%" stop-color="#ffffff" stop-opacity=".35"/>
+      <stop offset="60%" stop-color="#e11d48" stop-opacity=".45"/>
+      <stop offset="100%" stop-color="#e11d48" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="nameFill" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="48%" stop-color="#fff3f6"/>
+      <stop offset="100%" stop-color="#ffd0dc"/>
+    </linearGradient>
+
+    <filter id="nameGlow" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.88 0 0 0 0 0.05 0 0 0 0 0.20 0 0 0 .8 0" result="redGlow"/>
+      <feMerge>
+        <feMergeNode in="redGlow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softShadow" x="-20%" y="-40%" width="140%" height="180%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000000" flood-opacity=".55"/>
+    </filter>
+
+    <style>
+      .sweep { animation: sweep 3.6s ease-in-out infinite; }
+      .waveA { animation: driftA 7s ease-in-out infinite alternate; }
+      .waveB { animation: driftB 8s ease-in-out infinite alternate; }
+      .pulseLine { animation: pulseLine 1.8s ease-in-out infinite alternate; }
+      .name {
+        fill: url(#nameFill);
+        stroke: #160007;
+        stroke-width: 2.5;
+        paint-order: stroke;
+        font: 900 62px "Arial Black", "Trebuchet MS", "Segoe UI Black", sans-serif;
+        letter-spacing: .5px;
+        filter: url(#nameGlow);
+      }
+      .subline {
+        fill: #ff6b8a;
+        font: 800 13px "Trebuchet MS", "Segoe UI", sans-serif;
+        letter-spacing: 7px;
+        opacity: .82;
+      }
+      @keyframes sweep {
+        0% { transform: translateX(-360px); opacity: 0; }
+        18% { opacity: 1; }
+        78% { opacity: 1; }
+        100% { transform: translateX(1180px); opacity: 0; }
+      }
+      @keyframes driftA {
+        from { transform: translateX(-40px); }
+        to { transform: translateX(55px); }
+      }
+      @keyframes driftB {
+        from { transform: translateX(70px); }
+        to { transform: translateX(-60px); }
+      }
+      @keyframes pulseLine {
+        from { opacity: .25; }
+        to { opacity: .95; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .sweep, .waveA, .waveB, .pulseLine { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="150" fill="#050505"/>
+  <rect width="1200" height="150" fill="url(#backdrop)"/>
+
+  <g opacity=".42" filter="url(#softShadow)">
+    <path class="waveA" d="M-80 116C140 82 280 110 456 92C660 72 792 108 970 88C1114 72 1228 92 1300 112V160H-80Z" fill="#050505"/>
+    <path class="waveB" d="M-80 88C120 124 310 88 510 110C690 130 838 88 1032 106C1140 116 1236 132 1300 118V160H-80Z" fill="#140007" opacity=".95"/>
+  </g>
+
+  <rect class="sweep" x="-230" y="0" width="230" height="150" fill="url(#hotSweep)" transform="skewX(-14)"/>
+  <path class="pulseLine" d="M24 128H1176" stroke="#e11d48" stroke-width="1.2" stroke-dasharray="16 18" stroke-linecap="round"/>
+  <path class="pulseLine" d="M24 24H1176" stroke="#ffffff" stroke-width=".7" stroke-dasharray="2 18" stroke-linecap="round" opacity=".45"/>
+
+  <text class="name" x="600" y="77" text-anchor="middle" dominant-baseline="middle">Sachinkumar M</text>
+  <text class="subline" x="600" y="116" text-anchor="middle">BACKEND  INFRA  PLATFORM</text>
+</svg>
