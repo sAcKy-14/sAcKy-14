@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=135&color=0:050505,45:190008,100:e11d48&section=header&text=sAcKy-14&fontColor=ffffff&fontSize=42&fontAlignY=35&animation=fadeIn" width="100%" alt="sAcKy-14 header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=135&color=0:050505,45:190008,100:e11d48&section=header&text=Sachinkumar%20M&fontColor=ffffff&fontSize=42&fontAlignY=35&animation=fadeIn" width="100%" alt="Sachinkumar M header" />
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2200&pause=700&color=E11D48&center=true&vCenter=true&width=760&lines=Backend+Engineer;Infra+%2B+Platform+Builder;Go+%7C+Python+%7C+Docker+%7C+Kubernetes;Fast+APIs.+Calm+systems.+Sharp+tools.)](https://git.io/typing-svg)
 
@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/remote_first-Coimbatore%2C_India-111111?style=for-the-badge&logo=googleearth&logoColor=e11d48" alt="Remote first from Coimbatore, India" />
 </p>
 
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="420" alt="Animated developer working at a computer" />
+<img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="100%" alt="Wide animated developer workspace banner" />
 
 </div>
 
@@ -106,73 +106,6 @@ Workers, queues, retries, CDC, Kafka streams, durable jobs, and failure paths th
 ### Platforms
 
 Dockerized services, Kubernetes workflows, CI/CD, cloud primitives, and developer tooling.
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="360" alt="Animated programming workspace" />
-</div>
-
----
-
-## Featured Work
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### api-gateway-core
-
-High-throughput API gateway in Go with rate limiting, JWT auth, reverse proxying, and distributed tracing.
-
-![Go](https://img.shields.io/badge/Go-e11d48?style=flat-square&logo=go&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-111111?style=flat-square&logo=docker&logoColor=e11d48)
-![Redis](https://img.shields.io/badge/Redis-111111?style=flat-square&logo=redis&logoColor=e11d48)
-
-[![View Repo](https://img.shields.io/badge/View_Repo-e11d48?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sAcKy-14/api-gateway-core)
-
-</td>
-<td width="50%" valign="top">
-
-### pg-stream-sync
-
-PostgreSQL CDC pipeline that streams row-level changes to Kafka and Redis with reliability-first delivery.
-
-![Python](https://img.shields.io/badge/Python-e11d48?style=flat-square&logo=python&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111111?style=flat-square&logo=postgresql&logoColor=e11d48)
-![Kafka](https://img.shields.io/badge/Kafka-111111?style=flat-square&logo=apachekafka&logoColor=e11d48)
-
-[![View Repo](https://img.shields.io/badge/View_Repo-e11d48?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sAcKy-14/pg-stream-sync)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### fastify-rbac-kit
-
-Fastify RBAC plugin with declarative permissions, middleware hooks, and Redis-backed session handling.
-
-![Node.js](https://img.shields.io/badge/Node.js-e11d48?style=flat-square&logo=nodedotjs&logoColor=white)
-![Fastify](https://img.shields.io/badge/Fastify-111111?style=flat-square&logo=fastify&logoColor=e11d48)
-![Bun](https://img.shields.io/badge/Bun-111111?style=flat-square&logo=bun&logoColor=e11d48)
-
-[![View Repo](https://img.shields.io/badge/View_Repo-e11d48?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sAcKy-14/fastify-rbac-kit)
-
-</td>
-<td width="50%" valign="top">
-
-### sys-bench-rs
-
-Rust-based benchmarking toolkit for CPU, memory, I/O, and network profiling with flamegraph output.
-
-![Rust](https://img.shields.io/badge/Rust-e11d48?style=flat-square&logo=rust&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-111111?style=flat-square&logo=linux&logoColor=e11d48)
-![C](https://img.shields.io/badge/C-111111?style=flat-square&logo=c&logoColor=e11d48)
-
-[![View Repo](https://img.shields.io/badge/View_Repo-e11d48?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sAcKy-14/sys-bench-rs)
 
 </td>
 </tr>
