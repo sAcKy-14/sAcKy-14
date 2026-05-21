@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src=".github/assets/name-banner.svg" width="100%" alt="Sachinkumar M animated banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=135&color=0:050505,45:190008,100:e11d48&section=header&text=Sachinkumar%20M&fontColor=ffffff&fontSize=42&fontAlignY=35&animation=fadeIn" width="100%" alt="Sachinkumar M header" />
 
 <img src=".github/assets/tag-marquee.svg" width="100%" alt="Team Media, BasketBall, Speed Cubing, Philathely, NSS, ACE Club, Photography, Videography, Video Editing" />
 
@@ -137,8 +137,16 @@ Dockerized services, Kubernetes workflows, CI/CD, cloud primitives, and develope
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-sAcKy--14-e11d48?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sAcKy-14)
+[![Gmail](https://img.shields.io/badge/Gmail-contact-e11d48?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sachinkumarm@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-111111?style=for-the-badge&logo=linkedin&logoColor=e11d48)](https://www.linkedin.com/in/sachinkumar-m)
+[![X](https://img.shields.io/badge/X-follow-111111?style=for-the-badge&logo=x&logoColor=e11d48)](https://x.com/sAcKy_14)
+[![CodeChef](https://img.shields.io/badge/CodeChef-profile-e11d48?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/sacky14)
+
+<br />
+<br />
+
 [![Repositories](https://img.shields.io/badge/Repositories-builds-111111?style=for-the-badge&logo=git&logoColor=e11d48)](https://github.com/sAcKy-14?tab=repositories)
-[![Open Issue](https://img.shields.io/badge/Ping-open_issue-111111?style=for-the-badge&logo=github&logoColor=e11d48)](https://github.com/sAcKy-14/sAcKy-14/issues/new)
+[![Open Issue](https://img.shields.io/badge/Open_Issue-ping_me-111111?style=for-the-badge&logo=github&logoColor=e11d48)](https://github.com/sAcKy-14/sAcKy-14/issues/new)
 
 ```txt
 always building
