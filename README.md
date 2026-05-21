@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=135&color=0:050505,45:190008,100:e11d48&section=header&text=Sachinkumar%20M&fontColor=ffffff&fontSize=42&fontAlignY=35&animation=fadeIn" width="100%" alt="Sachinkumar M header" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2200&pause=700&color=E11D48&center=true&vCenter=true&width=760&lines=Backend+Engineer;Infra+%2B+Platform+Builder;Go+%7C+Python+%7C+Docker+%7C+Kubernetes;Fast+APIs.+Calm+systems.+Sharp+tools.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=23&duration=1900&pause=500&color=E11D48&center=true&vCenter=true&width=860&lines=Backend+Engineer;Infra+%2B+Platform+Builder;Distributed+Systems+%7C+Clean+APIs+%7C+Cloud;Fast+services.+Calm+infra.+Sharp+tooling.;Always+building.+Always+shipping.)](https://git.io/typing-svg)
 
 <p>
   <img src="https://komarev.com/ghpvc/?username=sAcKy-14&style=for-the-badge&color=e11d48&label=profile+views" alt="Profile views" />
@@ -12,26 +12,45 @@
 
 <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="100%" alt="Wide animated developer workspace banner" />
 
+<br />
+<br />
+
+<img src=".github/assets/tag-marquee.svg" width="100%" alt="Team Media, BasketBall, Speed Cubing, Philately, NSS, ACE Club" />
+
+<br />
+<br />
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:e11d48,50:ffffff,100:e11d48&section=header" width="100%" alt="Animated red divider" />
+
 </div>
 
 ---
 
-## Console
+## Runtime
 
-```txt
-> whoami
-backend engineer who likes clean APIs, fast services, and infra that does not panic at 3 AM
+<div align="center">
 
-> current_mode
-building production-ready systems with Go, Python, Docker, Kubernetes, PostgreSQL, Redis, and queues
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=1300&pause=450&color=FFFFFF&background=05050500&multiline=true&repeat=true&width=880&height=110&lines=%24+whoami+%E2%86%92+backend+engineer;%24+mode+%E2%86%92+production+APIs+%2B+infra+%2B+platform;%24+stack+%E2%86%92+go+python+docker+kubernetes+postgres+redis;%24+status+%E2%86%92+open+to+backend+%2F+infra+%2F+platform+work" alt="Animated terminal introduction" />
 
-> looking_for
-backend, infrastructure, and platform engineering roles
-```
+<p>
+  <img src="https://img.shields.io/badge/building-APIs-e11d48?style=for-the-badge&logo=fastapi&logoColor=white" alt="Building APIs" />
+  <img src="https://img.shields.io/badge/tuning-latency-111111?style=for-the-badge&logo=speedtest&logoColor=e11d48" alt="Tuning latency" />
+  <img src="https://img.shields.io/badge/shipping-platforms-111111?style=for-the-badge&logo=kubernetes&logoColor=e11d48" alt="Shipping platforms" />
+</p>
+
+</div>
 
 ---
 
 ## Loadout
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=go,python,docker,kubernetes,postgres,redis,kafka,aws,gcp,nodejs,bun,linux,rust,neovim&theme=dark&perline=7" alt="Animated skill icon grid" />
+
+</div>
+
+<br />
 
 <table>
 <tr>
@@ -126,6 +145,11 @@ Dockerized services, Kubernetes workflows, CI/CD, cloud primitives, and develope
 <br />
 <br />
 
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=sAcKy-14&bg_color=050505&color=ffffff&line=e11d48&point=ffffff&area=true&area_color=e11d48&hide_border=true&radius=8" width="100%" alt="GitHub activity graph" />
+
+<br />
+<br />
+
 <img src="https://github-readme-stats.vercel.app/api?username=sAcKy-14&show_icons=true&hide_border=true&bg_color=050505&title_color=e11d48&icon_color=e11d48&text_color=ffffff&include_all_commits=true&count_private=true" width="49%" alt="GitHub stats" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sAcKy-14&layout=compact&hide_border=true&langs_count=8&bg_color=050505&title_color=e11d48&text_color=ffffff" width="49%" alt="Top languages" />
 
@@ -133,6 +157,11 @@ Dockerized services, Kubernetes workflows, CI/CD, cloud primitives, and develope
 <br />
 
 <img src="https://streak-stats.demolab.com?user=sAcKy-14&hide_border=true&background=050505&stroke=190008&ring=e11d48&fire=e11d48&currStreakLabel=e11d48&sideLabels=ffffff&dates=9f1239&sideNums=ffffff&currStreakNum=ffffff" width="70%" alt="GitHub streak" />
+
+<br />
+<br />
+
+<img src="https://github-profile-trophy.vercel.app/?username=sAcKy-14&theme=radical&no-frame=true&no-bg=true&margin-w=10&row=1&column=6" width="100%" alt="GitHub trophies" />
 
 </div>
 

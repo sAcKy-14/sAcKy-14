@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="72" viewBox="0 0 1000 72" role="img" aria-label="Flowing interest tags">
+  <defs>
+    <linearGradient id="fade" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="10%" stop-color="#050505" stop-opacity="0"/>
+      <stop offset="90%" stop-color="#050505" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="pill" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#e11d48"/>
+      <stop offset="100%" stop-color="#190008"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .track { animation: scroll 18s linear infinite; }
+      .pill { fill: #090909; stroke: #e11d48; stroke-width: 1.4; }
+      .hot { fill: url(#pill); stroke: #ff6b8a; }
+      .label { fill: #ffffff; font: 700 17px "JetBrains Mono", "Fira Code", monospace; letter-spacing: .3px; }
+      .dot { fill: #e11d48; filter: url(#glow); }
+      @keyframes scroll {
+        from { transform: translateX(0); }
+        to { transform: translateX(-820px); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .track { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1000" height="72" fill="#050505"/>
+  <g opacity=".28">
+    <path d="M0 18H1000M0 54H1000" stroke="#e11d48" stroke-width="1"/>
+    <path d="M0 36H1000" stroke="#ffffff" stroke-width=".5"/>
+  </g>
+
+  <g class="track">
+    <g transform="translate(18 16)">
+      <rect class="pill hot" x="0" y="0" width="128" height="40" rx="20"/>
+      <text class="label" x="22" y="26">Team Media</text>
+      <circle class="dot" cx="166" cy="20" r="4"/>
+
+      <rect class="pill" x="190" y="0" width="126" height="40" rx="20"/>
+      <text class="label" x="213" y="26">BasketBall</text>
+      <circle class="dot" cx="336" cy="20" r="4"/>
+
+      <rect class="pill hot" x="360" y="0" width="142" height="40" rx="20"/>
+      <text class="label" x="382" y="26">Speed Cubing</text>
+      <circle class="dot" cx="522" cy="20" r="4"/>
+
+      <rect class="pill" x="546" y="0" width="124" height="40" rx="20"/>
+      <text class="label" x="569" y="26">Philately</text>
+      <circle class="dot" cx="690" cy="20" r="4"/>
+
+      <rect class="pill hot" x="714" y="0" width="72" height="40" rx="20"/>
+      <text class="label" x="734" y="26">NSS</text>
+      <circle class="dot" cx="806" cy="20" r="4"/>
+
+      <rect class="pill" x="830" y="0" width="108" height="40" rx="20"/>
+      <text class="label" x="852" y="26">ACE Club</text>
+    </g>
+
+    <g transform="translate(858 16)">
+      <rect class="pill hot" x="0" y="0" width="128" height="40" rx="20"/>
+      <text class="label" x="22" y="26">Team Media</text>
+      <circle class="dot" cx="166" cy="20" r="4"/>
+
+      <rect class="pill" x="190" y="0" width="126" height="40" rx="20"/>
+      <text class="label" x="213" y="26">BasketBall</text>
+      <circle class="dot" cx="336" cy="20" r="4"/>
+
+      <rect class="pill hot" x="360" y="0" width="142" height="40" rx="20"/>
+      <text class="label" x="382" y="26">Speed Cubing</text>
+      <circle class="dot" cx="522" cy="20" r="4"/>
+
+      <rect class="pill" x="546" y="0" width="124" height="40" rx="20"/>
+      <text class="label" x="569" y="26">Philately</text>
+      <circle class="dot" cx="690" cy="20" r="4"/>
+
+      <rect class="pill hot" x="714" y="0" width="72" height="40" rx="20"/>
+      <text class="label" x="734" y="26">NSS</text>
+      <circle class="dot" cx="806" cy="20" r="4"/>
+
+      <rect class="pill" x="830" y="0" width="108" height="40" rx="20"/>
+      <text class="label" x="852" y="26">ACE Club</text>
+    </g>
+  </g>
+
+  <rect width="1000" height="72" fill="url(#fade)"/>
+</svg>
