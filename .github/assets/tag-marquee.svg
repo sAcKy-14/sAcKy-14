@@ -1,95 +1,191 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="72" viewBox="0 0 1000 72" role="img" aria-label="Flowing interest tags">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="82" viewBox="0 0 1200 82" role="img" aria-label="Flowing interest tags">
   <defs>
     <linearGradient id="fade" x1="0" x2="1" y1="0" y2="0">
       <stop offset="0%" stop-color="#050505"/>
-      <stop offset="10%" stop-color="#050505" stop-opacity="0"/>
-      <stop offset="90%" stop-color="#050505" stop-opacity="0"/>
+      <stop offset="7%" stop-color="#050505" stop-opacity="0"/>
+      <stop offset="93%" stop-color="#050505" stop-opacity="0"/>
       <stop offset="100%" stop-color="#050505"/>
     </linearGradient>
-    <linearGradient id="pill" x1="0" x2="1" y1="0" y2="1">
+    <linearGradient id="pillHot" x1="0" x2="1" y1="0" y2="1">
       <stop offset="0%" stop-color="#e11d48"/>
       <stop offset="100%" stop-color="#190008"/>
     </linearGradient>
-    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
-      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+    <linearGradient id="edge" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#190008"/>
+      <stop offset="18%" stop-color="#e11d48"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="82%" stop-color="#e11d48"/>
+      <stop offset="100%" stop-color="#190008"/>
+    </linearGradient>
+    <linearGradient id="capsuleEdge" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#e11d48"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#e11d48" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity=".85"/>
+      <stop offset="58%" stop-color="#e11d48" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#e11d48" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
     <style>
-      .track { animation: scroll 18s linear infinite; }
-      .pill { fill: #090909; stroke: #e11d48; stroke-width: 1.4; }
-      .hot { fill: url(#pill); stroke: #ff6b8a; }
-      .label { fill: #ffffff; font: 700 17px "JetBrains Mono", "Fira Code", monospace; letter-spacing: .3px; }
-      .dot { fill: #e11d48; filter: url(#glow); }
+      .track { animation: scroll 24s linear infinite; }
+      .frame { fill: #080808; stroke: url(#edge); stroke-width: 1.5; stroke-dasharray: 72 24; animation: frameFlow 5s linear infinite, frameGlow 3s ease-in-out infinite; }
+      .innerFrame { fill: none; stroke: #e11d48; stroke-width: .7; opacity: .55; stroke-dasharray: 8 10; animation: dash 3s linear infinite reverse; }
+      .corner { fill: none; stroke: #ffffff; stroke-width: 2; stroke-linecap: round; filter: url(#glow); animation: cornerPulse 1.7s ease-in-out infinite alternate; }
+      .pill { fill: #090909; stroke: #2a0710; stroke-width: 1.2; filter: drop-shadow(0 0 2px #e11d48); }
+      .hot { fill: url(#pillHot); }
+      .pillEdge { fill: none; stroke: url(#capsuleEdge); stroke-width: 1.7; stroke-dasharray: 42 126; stroke-linecap: round; animation: capsuleFlow 2.6s linear infinite; }
+      .hotEdge { stroke-width: 2; stroke-dasharray: 58 94; }
+      .label { fill: #ffffff; stroke: #190008; stroke-width: 3px; paint-order: stroke; font: 800 16px "JetBrains Mono", "Fira Code", monospace; letter-spacing: .2px; dominant-baseline: middle; text-anchor: middle; }
+      .dot { fill: #e11d48; filter: url(#glow); animation: blink 1.2s ease-in-out infinite alternate; }
+      .rail { stroke: #e11d48; stroke-width: 1; stroke-dasharray: 2 18; stroke-linecap: round; animation: dash 1.8s linear infinite; opacity: .75; }
+      .scan { animation: scan 3s ease-in-out infinite; }
       @keyframes scroll {
         from { transform: translateX(0); }
-        to { transform: translateX(-820px); }
+        to { transform: translateX(-1560px); }
+      }
+      @keyframes dash {
+        to { stroke-dashoffset: -44; }
+      }
+      @keyframes frameFlow {
+        to { stroke-dashoffset: -192; }
+      }
+      @keyframes capsuleFlow {
+        to { stroke-dashoffset: -168; }
+      }
+      @keyframes frameGlow {
+        0%, 100% { filter: drop-shadow(0 0 2px #e11d48); }
+        50% { filter: drop-shadow(0 0 8px #e11d48); }
+      }
+      @keyframes cornerPulse {
+        from { opacity: .45; }
+        to { opacity: 1; }
+      }
+      @keyframes blink {
+        from { opacity: .35; }
+        to { opacity: 1; }
+      }
+      @keyframes scan {
+        0% { transform: translateX(-280px); opacity: 0; }
+        18% { opacity: .85; }
+        82% { opacity: .85; }
+        100% { transform: translateX(1280px); opacity: 0; }
       }
       @media (prefers-reduced-motion: reduce) {
-        .track { animation: none; }
+        .track, .frame, .innerFrame, .corner, .pillEdge, .rail, .scan, .dot { animation: none; }
       }
     </style>
   </defs>
 
-  <rect width="1000" height="72" fill="#050505"/>
-  <g opacity=".28">
-    <path d="M0 18H1000M0 54H1000" stroke="#e11d48" stroke-width="1"/>
-    <path d="M0 36H1000" stroke="#ffffff" stroke-width=".5"/>
-  </g>
+  <rect width="1200" height="82" fill="#050505"/>
+  <rect class="frame" x="8" y="9" width="1184" height="64" rx="16"/>
+  <rect class="innerFrame" x="16" y="16" width="1168" height="50" rx="12"/>
+  <path class="corner" d="M22 27V19H68M1132 19H1178V27M22 55V63H68M1132 63H1178V55"/>
+  <path class="rail" d="M34 25H1166M34 57H1166"/>
+  <path d="M0 41H1200" stroke="#ffffff" stroke-width=".5" opacity=".16"/>
+  <rect class="scan" x="-170" y="12" width="190" height="58" fill="url(#sweep)" opacity=".52"/>
 
   <g class="track">
-    <g transform="translate(18 16)">
-      <rect class="pill hot" x="0" y="0" width="128" height="40" rx="20"/>
-      <text class="label" x="22" y="26">Team Media</text>
-      <circle class="dot" cx="166" cy="20" r="4"/>
+    <g transform="translate(20 21)">
+      <rect class="pill hot" x="0" y="0" width="132" height="40" rx="20"/>
+      <rect class="pillEdge hotEdge" x="2" y="2" width="128" height="36" rx="18"/>
+      <text class="label" x="66" y="21">Team Media</text>
+      <circle class="dot" cx="168" cy="20" r="4"/>
 
-      <rect class="pill" x="190" y="0" width="126" height="40" rx="20"/>
-      <text class="label" x="213" y="26">BasketBall</text>
-      <circle class="dot" cx="336" cy="20" r="4"/>
+      <rect class="pill" x="196" y="0" width="126" height="40" rx="20"/>
+      <rect class="pillEdge" x="198" y="2" width="122" height="36" rx="18"/>
+      <text class="label" x="259" y="21">BasketBall</text>
+      <circle class="dot" cx="338" cy="20" r="4"/>
 
-      <rect class="pill hot" x="360" y="0" width="142" height="40" rx="20"/>
-      <text class="label" x="382" y="26">Speed Cubing</text>
-      <circle class="dot" cx="522" cy="20" r="4"/>
+      <rect class="pill hot" x="366" y="0" width="150" height="40" rx="20"/>
+      <rect class="pillEdge hotEdge" x="368" y="2" width="146" height="36" rx="18"/>
+      <text class="label" x="441" y="21">Speed Cubing</text>
+      <circle class="dot" cx="532" cy="20" r="4"/>
 
-      <rect class="pill" x="546" y="0" width="124" height="40" rx="20"/>
-      <text class="label" x="569" y="26">Philately</text>
-      <circle class="dot" cx="690" cy="20" r="4"/>
+      <rect class="pill" x="560" y="0" width="136" height="40" rx="20"/>
+      <rect class="pillEdge" x="562" y="2" width="132" height="36" rx="18"/>
+      <text class="label" x="628" y="21">Philathely</text>
+      <circle class="dot" cx="712" cy="20" r="4"/>
 
-      <rect class="pill hot" x="714" y="0" width="72" height="40" rx="20"/>
-      <text class="label" x="734" y="26">NSS</text>
-      <circle class="dot" cx="806" cy="20" r="4"/>
+      <rect class="pill hot" x="740" y="0" width="74" height="40" rx="20"/>
+      <rect class="pillEdge hotEdge" x="742" y="2" width="70" height="36" rx="18"/>
+      <text class="label" x="777" y="21">NSS</text>
+      <circle class="dot" cx="830" cy="20" r="4"/>
 
-      <rect class="pill" x="830" y="0" width="108" height="40" rx="20"/>
-      <text class="label" x="852" y="26">ACE Club</text>
+      <rect class="pill" x="858" y="0" width="112" height="40" rx="20"/>
+      <rect class="pillEdge" x="860" y="2" width="108" height="36" rx="18"/>
+      <text class="label" x="914" y="21">ACE Club</text>
+      <circle class="dot" cx="986" cy="20" r="4"/>
+
+      <rect class="pill hot" x="1014" y="0" width="134" height="40" rx="20"/>
+      <rect class="pillEdge hotEdge" x="1016" y="2" width="130" height="36" rx="18"/>
+      <text class="label" x="1081" y="21">Photography</text>
+      <circle class="dot" cx="1164" cy="20" r="4"/>
+
+      <rect class="pill" x="1192" y="0" width="138" height="40" rx="20"/>
+      <rect class="pillEdge" x="1194" y="2" width="134" height="36" rx="18"/>
+      <text class="label" x="1261" y="21">Videography</text>
+      <circle class="dot" cx="1346" cy="20" r="4"/>
+
+      <rect class="pill hot" x="1374" y="0" width="156" height="40" rx="20"/>
+      <rect class="pillEdge hotEdge" x="1376" y="2" width="152" height="36" rx="18"/>
+      <text class="label" x="1452" y="21">Video Editing</text>
     </g>
 
-    <g transform="translate(858 16)">
-      <rect class="pill hot" x="0" y="0" width="128" height="40" rx="20"/>
-      <text class="label" x="22" y="26">Team Media</text>
-      <circle class="dot" cx="166" cy="20" r="4"/>
+    <g transform="translate(1580 21)">
+      <rect class="pill hot" x="0" y="0" width="132" height="40" rx="20"/>
+      <rect class="pillEdge hotEdge" x="2" y="2" width="128" height="36" rx="18"/>
+      <text class="label" x="66" y="21">Team Media</text>
+      <circle class="dot" cx="168" cy="20" r="4"/>
 
-      <rect class="pill" x="190" y="0" width="126" height="40" rx="20"/>
-      <text class="label" x="213" y="26">BasketBall</text>
-      <circle class="dot" cx="336" cy="20" r="4"/>
+      <rect class="pill" x="196" y="0" width="126" height="40" rx="20"/>
+      <rect class="pillEdge" x="198" y="2" width="122" height="36" rx="18"/>
+      <text class="label" x="259" y="21">BasketBall</text>
+      <circle class="dot" cx="338" cy="20" r="4"/>
 
-      <rect class="pill hot" x="360" y="0" width="142" height="40" rx="20"/>
-      <text class="label" x="382" y="26">Speed Cubing</text>
-      <circle class="dot" cx="522" cy="20" r="4"/>
+      <rect class="pill hot" x="366" y="0" width="150" height="40" rx="20"/>
+      <rect class="pillEdge hotEdge" x="368" y="2" width="146" height="36" rx="18"/>
+      <text class="label" x="441" y="21">Speed Cubing</text>
+      <circle class="dot" cx="532" cy="20" r="4"/>
 
-      <rect class="pill" x="546" y="0" width="124" height="40" rx="20"/>
-      <text class="label" x="569" y="26">Philately</text>
-      <circle class="dot" cx="690" cy="20" r="4"/>
+      <rect class="pill" x="560" y="0" width="136" height="40" rx="20"/>
+      <rect class="pillEdge" x="562" y="2" width="132" height="36" rx="18"/>
+      <text class="label" x="628" y="21">Philathely</text>
+      <circle class="dot" cx="712" cy="20" r="4"/>
 
-      <rect class="pill hot" x="714" y="0" width="72" height="40" rx="20"/>
-      <text class="label" x="734" y="26">NSS</text>
-      <circle class="dot" cx="806" cy="20" r="4"/>
+      <rect class="pill hot" x="740" y="0" width="74" height="40" rx="20"/>
+      <rect class="pillEdge hotEdge" x="742" y="2" width="70" height="36" rx="18"/>
+      <text class="label" x="777" y="21">NSS</text>
+      <circle class="dot" cx="830" cy="20" r="4"/>
 
-      <rect class="pill" x="830" y="0" width="108" height="40" rx="20"/>
-      <text class="label" x="852" y="26">ACE Club</text>
+      <rect class="pill" x="858" y="0" width="112" height="40" rx="20"/>
+      <rect class="pillEdge" x="860" y="2" width="108" height="36" rx="18"/>
+      <text class="label" x="914" y="21">ACE Club</text>
+      <circle class="dot" cx="986" cy="20" r="4"/>
+
+      <rect class="pill hot" x="1014" y="0" width="134" height="40" rx="20"/>
+      <rect class="pillEdge hotEdge" x="1016" y="2" width="130" height="36" rx="18"/>
+      <text class="label" x="1081" y="21">Photography</text>
+      <circle class="dot" cx="1164" cy="20" r="4"/>
+
+      <rect class="pill" x="1192" y="0" width="138" height="40" rx="20"/>
+      <rect class="pillEdge" x="1194" y="2" width="134" height="36" rx="18"/>
+      <text class="label" x="1261" y="21">Videography</text>
+      <circle class="dot" cx="1346" cy="20" r="4"/>
+
+      <rect class="pill hot" x="1374" y="0" width="156" height="40" rx="20"/>
+      <rect class="pillEdge hotEdge" x="1376" y="2" width="152" height="36" rx="18"/>
+      <text class="label" x="1452" y="21">Video Editing</text>
     </g>
   </g>
 
-  <rect width="1000" height="72" fill="url(#fade)"/>
+  <rect width="1200" height="82" fill="url(#fade)"/>
 </svg>

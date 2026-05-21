@@ -2,7 +2,10 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=135&color=0:050505,45:190008,100:e11d48&section=header&text=Sachinkumar%20M&fontColor=ffffff&fontSize=42&fontAlignY=35&animation=fadeIn" width="100%" alt="Sachinkumar M header" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=23&duration=1900&pause=500&color=E11D48&center=true&vCenter=true&width=860&lines=Backend+Engineer;Infra+%2B+Platform+Builder;Distributed+Systems+%7C+Clean+APIs+%7C+Cloud;Fast+services.+Calm+infra.+Sharp+tooling.;Always+building.+Always+shipping.)](https://git.io/typing-svg)
+<img src=".github/assets/tag-marquee.svg" width="100%" alt="Team Media, BasketBall, Speed Cubing, Philathely, NSS, ACE Club, Photography, Videography, Video Editing" />
+
+<br />
+<br />
 
 <p>
   <img src="https://komarev.com/ghpvc/?username=sAcKy-14&style=for-the-badge&color=e11d48&label=profile+views" alt="Profile views" />
@@ -11,11 +14,6 @@
 </p>
 
 <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="100%" alt="Wide animated developer workspace banner" />
-
-<br />
-<br />
-
-<img src=".github/assets/tag-marquee.svg" width="100%" alt="Team Media, BasketBall, Speed Cubing, Philately, NSS, ACE Club" />
 
 <br />
 <br />
@@ -129,41 +127,6 @@ Dockerized services, Kubernetes workflows, CI/CD, cloud primitives, and develope
 </td>
 </tr>
 </table>
-
----
-
-## Activity
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sAcKy-14/sAcKy-14/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sAcKy-14/sAcKy-14/output/github-contribution-grid-snake.svg" />
-  <img alt="GitHub contribution animation" src="https://raw.githubusercontent.com/sAcKy-14/sAcKy-14/output/github-contribution-grid-snake-dark.svg" />
-</picture>
-
-<br />
-<br />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=sAcKy-14&bg_color=050505&color=ffffff&line=e11d48&point=ffffff&area=true&area_color=e11d48&hide_border=true&radius=8" width="100%" alt="GitHub activity graph" />
-
-<br />
-<br />
-
-<img src="https://github-readme-stats.vercel.app/api?username=sAcKy-14&show_icons=true&hide_border=true&bg_color=050505&title_color=e11d48&icon_color=e11d48&text_color=ffffff&include_all_commits=true&count_private=true" width="49%" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sAcKy-14&layout=compact&hide_border=true&langs_count=8&bg_color=050505&title_color=e11d48&text_color=ffffff" width="49%" alt="Top languages" />
-
-<br />
-<br />
-
-<img src="https://streak-stats.demolab.com?user=sAcKy-14&hide_border=true&background=050505&stroke=190008&ring=e11d48&fire=e11d48&currStreakLabel=e11d48&sideLabels=ffffff&dates=9f1239&sideNums=ffffff&currStreakNum=ffffff" width="70%" alt="GitHub streak" />
-
-<br />
-<br />
-
-<img src="https://github-profile-trophy.vercel.app/?username=sAcKy-14&theme=radical&no-frame=true&no-bg=true&margin-w=10&row=1&column=6" width="100%" alt="GitHub trophies" />
-
-</div>
 
 ---
 
