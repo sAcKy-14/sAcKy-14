@@ -44,7 +44,7 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=go,python,javascript, C,c++,java,docker,kubernetes,dynamodb,mongodb,postgres,redis,kafka,aws,nodejs,bun,linux,rust,neovim&theme=dark&perline=7" alt="Animated skill icon grid" />
+<img src="https://skillicons.dev/icons?i=go,python,javascript,c,cpp,java,docker,kubernetes,dynamodb,mongodb,postgres,redis,kafka,aws,nodejs,bun,linux,rust,neovim&theme=dark&perline=7" alt="Animated skill icon grid" />
 
 </div>
 
