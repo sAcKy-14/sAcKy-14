@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=135&color=0:050505,45:190008,100:e11d48&section=header&text=Sachinkumar%20M&fontColor=ffffff&fontSize=42&fontAlignY=35&animation=fadeIn" width="100%" alt="Sachinkumar M header" />
 
-<img src=".github/assets/tag-marquee.svg" width="100%" alt="Team Media, BasketBall, Speed Cubing, Philathely, NSS, ACE Club, Photography, Videography, Video Editing" />
+<img src=".github/assets/tag-marquee.svg" width="100%" alt="Head - Team Media,Software Developer at Home Ideas Technologies , ACE Club Member,Speed Cuber, Philatelist ,Cinemotographer, Video Editor" />
 
 <br />
 <br />
@@ -20,8 +20,6 @@
 <br />
 <br />
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:e11d48,50:ffffff,100:e11d48&section=header" width="100%" alt="Animated red divider" />
-
 </div>
 
 ---
@@ -30,7 +28,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=1300&pause=450&color=FFFFFF&background=05050500&multiline=true&repeat=true&width=880&height=110&lines=%24+whoami+%E2%86%92+backend+engineer;%24+mode+%E2%86%92+production+APIs+%2B+infra+%2B+platform;%24+stack+%E2%86%92+go+python+docker+kubernetes+postgres+redis;%24+status+%E2%86%92+open+to+backend+%2F+infra+%2F+platform+work" alt="Animated terminal introduction" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=1300&pause=450&color=FFFFFF&background=05050500&multiline=true&repeat=true&width=880&height=110&lines=%24+whoami+%E2%86%92+Backend+engineer;%24+mode+%E2%86%92+DevOps+%2B+Cloud Architect+%2B+Gen-AI;%24+stack+%E2%86%92+go+python+docker+kubernetes+postgres+redis;%24+status+%E2%86%92+open+to+backend+%2F+infra+%2F+platform+work" alt="Animated terminal introduction" />
 
 <p>
   <img src="https://img.shields.io/badge/building-APIs-e11d48?style=for-the-badge&logo=fastapi&logoColor=white" alt="Building APIs" />
@@ -46,7 +44,7 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=go,python,docker,kubernetes,postgres,redis,kafka,aws,gcp,nodejs,bun,linux,rust,neovim&theme=dark&perline=7" alt="Animated skill icon grid" />
+<img src="https://skillicons.dev/icons?i=go,python,javascript, C,c++,java,docker,kubernetes,dynamodb,mongodb,postgres,redis,kafka,aws,nodejs,bun,linux,rust,neovim&theme=dark&perline=7" alt="Animated skill icon grid" />
 
 </div>
 
@@ -67,7 +65,7 @@
 </td>
 <td width="50%" valign="top">
 
-### Infra
+### DevOps
 
 ![Docker](https://img.shields.io/badge/Docker-e11d48?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-e11d48?style=for-the-badge&logo=kubernetes&logoColor=white)
