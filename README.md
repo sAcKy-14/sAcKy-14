@@ -24,22 +24,6 @@
 
 ---
 
-## Runtime
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=1300&pause=450&color=FFFFFF&background=05050500&multiline=true&repeat=true&width=880&height=110&lines=%24+whoami+%E2%86%92+Backend+engineer;%24+mode+%E2%86%92+DevOps+%2B+Cloud Architect+%2B+Gen-AI;%24+stack+%E2%86%92+go+python+docker+kubernetes+postgres+redis;%24+status+%E2%86%92+open+to+backend+%2F+infra+%2F+platform+work" alt="Animated terminal introduction" />
-
-<p>
-  <img src="https://img.shields.io/badge/building-APIs-e11d48?style=for-the-badge&logo=fastapi&logoColor=white" alt="Building APIs" />
-  <img src="https://img.shields.io/badge/tuning-latency-111111?style=for-the-badge&logo=speedtest&logoColor=e11d48" alt="Tuning latency" />
-  <img src="https://img.shields.io/badge/shipping-platforms-111111?style=for-the-badge&logo=kubernetes&logoColor=e11d48" alt="Shipping platforms" />
-</p>
-
-</div>
-
----
-
 ## Loadout
 
 <div align="center">
