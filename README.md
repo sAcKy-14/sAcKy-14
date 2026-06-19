@@ -124,16 +124,6 @@ Dockerized services, Kubernetes workflows, CI/CD, Cloud primitives, and Develope
 [![CodeChef](https://img.shields.io/badge/CodeChef-profile-e11d48?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/sacky14)
 
 <br />
-<br />
-
-[![Repositories](https://img.shields.io/badge/Repositories-builds-111111?style=for-the-badge&logo=git&logoColor=e11d48)](https://github.com/sAcKy-14?tab=repositories)
-[![Open Issue](https://img.shields.io/badge/Open_Issue-ping_me-111111?style=for-the-badge&logo=github&logoColor=e11d48)](https://github.com/sAcKy-14/sAcKy-14/issues/new)
-
-```txt
-Bugs
-and
-Chill
-```
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:e11d48,45:190008,100:050505&section=footer" width="100%" alt="sAcKy-14 footer" />
 
