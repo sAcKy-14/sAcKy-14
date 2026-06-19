@@ -92,7 +92,7 @@
 
 ### APIs
 
-Service boundaries, auth, rate limits, observability, latency budgets, and boringly reliable deploys.
+service boundaries, auth, rate limits, observability, latency budgets, and boringly reliable deploys.
 
 </td>
 <td width="33%" valign="top">
@@ -106,7 +106,7 @@ Workers, queues, retries, CDC, Kafka streams, durable jobs, and failure paths th
 
 ### Platforms
 
-Dockerized services, Kubernetes workflows, CI/CD, cloud primitives, and developer tooling.
+Dockerized services, Kubernetes workflows, CI/CD, Cloud primitives, and Developer tooling.
 
 </td>
 </tr>
@@ -121,7 +121,6 @@ Dockerized services, Kubernetes workflows, CI/CD, cloud primitives, and develope
 [![GitHub](https://img.shields.io/badge/GitHub-sAcKy--14-e11d48?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sAcKy-14)
 [![Gmail](https://img.shields.io/badge/Gmail-contact-e11d48?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sachinkumarm@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-111111?style=for-the-badge&logo=linkedin&logoColor=e11d48)](https://www.linkedin.com/in/sachinkumar-m)
-[![X](https://img.shields.io/badge/X-follow-111111?style=for-the-badge&logo=x&logoColor=e11d48)](https://x.com/sAcKy_14)
 [![CodeChef](https://img.shields.io/badge/CodeChef-profile-e11d48?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/sacky14)
 
 <br />
@@ -131,9 +130,9 @@ Dockerized services, Kubernetes workflows, CI/CD, cloud primitives, and develope
 [![Open Issue](https://img.shields.io/badge/Open_Issue-ping_me-111111?style=for-the-badge&logo=github&logoColor=e11d48)](https://github.com/sAcKy-14/sAcKy-14/issues/new)
 
 ```txt
-always building
-always shipping
-open to backend, infra, and platform work
+Bugs
+and
+Chill
 ```
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:e11d48,45:190008,100:050505&section=footer" width="100%" alt="sAcKy-14 footer" />
