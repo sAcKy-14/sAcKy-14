@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=135&color=0:050505,45:190008,100:e11d48&section=header&text=SachinKumar%20M&fontColor=ffffff&fontSize=42&fontAlignY=35&animation=fadeIn" width="100%" alt="Sachinkumar M header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=135&color=0:050505,45:190008,100:e11d48&section=header&text=Sachin%20Kumar%20M&fontColor=ffffff&fontSize=42&fontAlignY=35&animation=fadeIn" width="100%" alt="Sachinkumar M header" />
 
 <img src=".github/assets/tag-marquee.svg" width="100%" alt="Head - Team Media,Software Developer at Home Ideas Technologies , ACE Club Member,Speed Cuber, Philatelist ,Cinemotographer, Video Editor" />
 
