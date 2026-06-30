@@ -106,7 +106,7 @@ Workers, queues, retries, CDC, Kafka streams, durable jobs, and failure paths th
 
 ### Platforms
 
-Dockerized services, Kubernetes workflows, CI/CD, Cloud primitives, and Developer tooling.
+Dockerized services, Kubernetes workflows, CI/CD Pipelines, Cloud primitives, and Developer tooling.
 
 </td>
 </tr>
